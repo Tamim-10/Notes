@@ -1,3 +1,25 @@
+# Intro to MongoDB
+## Lesson 1: Welcome to the Introduction to MongoDB Course
+
+🟢 What is MongoDB?
+
+MongoDB is a type of NoSQL database. That means instead of storing data in tables (like SQL does), it stores data in collections of documents, kind of like JSON.
+
+Think of it like this:
+
+In SQL: you'd have a table with rows and columns.
+
+In MongoDB: you have a collection (like a table) with documents (like rows), and those documents look like JSON objects.
+
+Example
+Here’s what a single MongoDB document might look like:
+
+{
+  "name": "Alice",
+  "age": 28,
+  "email": "alice@example.com"
+}
+
 # Getting Started with MongoDB Atlass
 
 ## Lesson 1 : Foundations of MongoDB
