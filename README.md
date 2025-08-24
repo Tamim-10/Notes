@@ -168,6 +168,57 @@ It handles all the hard parts: setup, scaling, backups, security
 
 You focus on building your app — not running a database server
 
+🌐 What is Atlas Data Federation?
+
+It’s a feature in MongoDB Atlas that lets you:
+
+Query data from multiple sources (like S3 buckets, Atlas databases, or even live databases) as if it's all in one MongoDB collection.
+
+📌 You don’t need to move or copy the data. Data Federation creates a virtual view over different sources.
+
+🧠 Think of it like:
+
+“One query. Many sources. No data duplication.”
+
+It’s like MongoDB saying:
+
+“You want to join your cloud file data with your Atlas data? No problem — query them together using normal MongoDB queries.”
+
+🧪 Example Scenario
+
+Imagine this setup:
+
+You have:
+
+A MongoDB Atlas collection of user profiles
+
+A large CSV file with user activity logs stored in AWS S3
+
+Normally:
+
+You’d have to write a script to download the CSV, parse it, and load it into MongoDB.
+
+With Data Federation:
+
+You create a virtual collection that connects to the S3 file.
+
+You can run a MongoDB query that joins the Atlas users collection with the S3 activity logs!
+
+🔧 How it looks in practice:
+
+You create a Data Federation instance in Atlas.
+
+You define data sources, like:
+
+S3 bucket
+
+Atlas collections
+
+Online MongoDB clusters
+
+You create virtual collections that map to these sources.
+
+
 # Getting Started with MongoDB Atlass
 
 ## Lesson 1 : Foundations of MongoDB
