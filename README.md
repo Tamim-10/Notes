@@ -222,6 +222,7 @@ You create virtual collections that map to these sources.
 # Getting Started with MongoDB Atlass
 
 ## Lesson 1 : Foundations of MongoDB
+<img width="798" height="432" alt="image" src="https://github.com/user-attachments/assets/4fcab272-c155-4fe1-888f-9014829a4bb3" />
 
 Distributed Databases
 
