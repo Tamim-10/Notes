@@ -270,6 +270,9 @@ Example
 
 ## Lesson 2: MongoDB Architecture Overview
 
+<img width="468" height="411" alt="image" src="https://github.com/user-attachments/assets/0d5709c4-f66e-44b4-adc7-f5dac3fbd1dd" />
+
+
 1️⃣ Cluster
    🔹 A cluster is a group of servers (computers) working together as one system.
    🔹 It ensures that your data is always available, even if one server fails.
@@ -299,13 +302,18 @@ Example
                                      "age": 20,
                                      "grade": "A"
                                    }
+<img width="461" height="425" alt="image" src="https://github.com/user-attachments/assets/4a01446b-c811-4159-b9cd-a26f8ff642fa" />
 
 Node - It is One MongoDB Server Instance (mongod process)
 It's a single MongoDB database server running on a machine (physical or virtual).
 
+<img width="795" height="411" alt="image" src="https://github.com/user-attachments/assets/21aae239-87a5-4688-abaa-0b51513124ac" />
+
 Cluster Types
 Replica Sets helps mongodb achieve high availability through a process called replication.
 Sharded Cluster supports scaling through a partitioning process called sharding.
+
+<img width="467" height="351" alt="image" src="https://github.com/user-attachments/assets/1a2662f8-57dd-4ba1-9cb6-38d90d0e5648" />
 
 CAP Theorm - It impossible to simultaneously gurantee availability , consistency and partition tolerance.
 Consistency - Every reads recieves the most recent write or an error
@@ -324,6 +332,8 @@ The CAP Theorem states that in a distributed system, you can only fully achieve 
 In simple terms:
 You can only pick two: C, A, or P — not all three at once.
 🍃 MongoDB & CAP
+
+<img width="464" height="368" alt="image" src="https://github.com/user-attachments/assets/39867bfc-f841-403c-a94d-51bccd89b665" />
 
 MongoDB is a distributed NoSQL database, and by default, it supports Partition Tolerance (P). Depending on how you configure read and write concerns, you can choose between:
 
@@ -377,6 +387,8 @@ mongod = MongoDB Daemon
     When you start MongoDB, you are essentially launching the mongod process.
 
 Replication - In the context of MongoDB, replication refers to the process of copying data from one server (primary) to one or more other servers (secondaries) to ensure high availability and data redundancy.
+
+<img width="804" height="440" alt="image" src="https://github.com/user-attachments/assets/91583c09-2ce2-4b52-aac9-089d9fa1a8dc" />
 
 🔁 What is MongoDB Replication?
 
@@ -443,6 +455,8 @@ Consistency of read write operations
 Scaling using sharding
 
 Sharding - In the context of MongoDB, sharding is a way to horizontally scale a database by distributing data across multiple servers or clusters called shards.
+
+<img width="462" height="434" alt="image" src="https://github.com/user-attachments/assets/cc067127-0caf-440a-a0bf-2a0f3174336c" />
 
 What Sharding Means in MongoDB:
 
