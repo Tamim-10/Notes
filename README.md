@@ -222,6 +222,7 @@ You create virtual collections that map to these sources.
 # Getting Started with MongoDB Atlass
 
 ## Lesson 1 : Foundations of MongoDB
+
 <img width="798" height="432" alt="image" src="https://github.com/user-attachments/assets/4fcab272-c155-4fe1-888f-9014829a4bb3" />
 
 Distributed Databases
@@ -586,6 +587,10 @@ Cloud Database associated with all cloud providers.
 
 Automatic Failover
 Availability zone
+
+<img width="466" height="377" alt="image" src="https://github.com/user-attachments/assets/911d7631-1383-4bad-a3d2-f01a70bfc4e8" />
+<img width="466" height="409" alt="image" src="https://github.com/user-attachments/assets/55e4fad1-6a42-48ff-99cd-aaa12b49a486" />
+<img width="784" height="396" alt="image" src="https://github.com/user-attachments/assets/384dce98-4ae4-4b8b-8782-38139e5d5699" />
 
 1. What are key differences between MongoDB Atlas as a database-as-a-service and MongoDB's self-managed options? (Select all that apply.)
 
